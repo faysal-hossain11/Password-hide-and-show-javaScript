@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;   
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #345398;
+}
+.inputBox{
+    width: 400px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 5px 4px rgba(112, 255, 112, 0.781);
+}
+
+.inputBox input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 15px 5px;
+    color: #555;
+    font-size: 18px;
+
+}
+.inputBox img{
+    width: 32px;
+    cursor: pointer;
+
+}
